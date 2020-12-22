@@ -25,7 +25,7 @@ version: '3'
 
 services:
   nat_manager:
-    image: tozd/external-ip:ubuntu-bionic
+    image: mkoehler/external-ip
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     network_mode: host
